@@ -8,9 +8,17 @@
         <servlet-name>home</servlet-name>
         <servlet-class>HomeServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>done</servlet-name>
+        <servlet-class>DoneServlet</servlet-class>
+    </servlet>
 
     <servlet-mapping>
         <servlet-name>home</servlet-name>
         <url-pattern>/</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>done</servlet-name>
+        <url-pattern>/done</url-pattern>
     </servlet-mapping>
 </web-app>
